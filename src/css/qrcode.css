@@ -1,0 +1,54 @@
+
+
+.full-card
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 1px;
+    border-radius: 4%;
+    background-color: hsl(0, 0%, 100%);
+    width: 21%;
+    margin:auto;
+    margin-top:7% ; 
+    padding-bottom: 5px;
+}
+
+.image
+{
+    border:1px;
+    border-radius: 10%;
+    padding: 15px;
+    
+
+}
+.content
+{
+    text-align: center;
+    
+}
+
+.header-full
+{
+    color: hsl(218, 44%, 22%);
+    padding: 15px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+.para
+{
+    padding: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width:376px) {
+    .full-card
+    {
+        margin: 20px;
+        width:90%;
+        margin-top: 20%;
+
+    }
+    
+}
